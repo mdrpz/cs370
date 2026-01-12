@@ -45,21 +45,6 @@ java -cp bin Main --loadInitialData initial_data.txt
 - **Username**: `admin`
 - **Password**: `admin`
 
-## Project Structure
-
-```
-src/
-  Main.java                    # Entry point
-  model/                       # Data models (DataRecord, User, Role, etc.)
-  storage/                     # Storage interfaces and implementations
-  auth/                        # Authentication (UserManager, SessionManager)
-  log/                         # Transaction logging
-  web/                         # Web scraping (HtmlFetcher, HtmlParser)
-  service/                     # Business logic services
-  cli/                         # Command line parsing
-  gui/                         # Swing GUI components
-```
-
 ## File Formats
 
 ### users.txt
