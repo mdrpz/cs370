@@ -1,0 +1,47 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Build / output folders
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.dll
+*.class
+
+# Java / Maven / Gradle
+*.war
+*.ear
+dependency-reduced-pom.xml
+release.properties
+*.iml
+.gradle/
+.gradle-cache/
+.gradle/
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.html
+
+# Ignore local project settings
+local.properties
+settings.local
