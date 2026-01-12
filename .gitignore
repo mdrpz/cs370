@@ -3,7 +3,7 @@
 Thumbs.db
 *.log
 
-# Environment files
+# Environment
 .env
 .env.local
 .env.*.local
@@ -34,14 +34,11 @@ release.properties
 .gradle/
 .DS_Store
 
-# Temporary files
+# Temporary
+temp/
 *.tmp
 *.temp
 *.bak
 *.orig
 *.rej
 *.html
-
-# Ignore local project settings
-local.properties
-settings.local
